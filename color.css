@@ -19,7 +19,7 @@ h1{
   text-align: center;
 }
 .verde{
-  background-color: rgb(29, 189, 15);
+  background-color: green;
   text-align: center;
 }
 .azul{
@@ -56,6 +56,20 @@ img{
 .casilla{
   background-color: white;
   text-align: center;
+  font-size: 18px;
+}
+
+
+
+.casillaRoja{
+  font-size: 25px;
+  text-align:end;
+  color: Red;
+}
+.casillaAm{
+  font-size: 25px;
+  
+  color: gold;
 }
 
 .tile1 {
