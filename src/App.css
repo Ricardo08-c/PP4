@@ -1,0 +1,115 @@
+#UserContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+#UserInput {
+  height: 30px;
+  width: 20em;
+  font-size: 17px;
+  outline: none;
+  border: 1px solid #8e44ad;
+  border-radius: 3px;
+  padding: 0 10px;
+}
+
+.UserButton {
+  outline: none;
+  background-color: #8e44ad;
+  color: #fff;
+  font-size: 17px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  padding: 4px 18px;
+  transition: all 230ms ease-in-out;
+  margin-top: 2em;
+  cursor: pointer;
+}
+
+.UserButton:hover {
+  background-color: transparent;
+    border: 2px solid #8e44ad;
+    color: #8e44ad;
+}
+
+.OptionButton {
+  outline: none;
+  background-color: #8e44ad;
+  color: #fff;
+  font-size: 38px;
+  border: 4px solid transparent;
+  border-radius: 5px;
+  padding: 4px 18px;
+  transition: all 230ms ease-in-out;
+  margin-top: 1em;
+  cursor: pointer;
+}
+
+.OptionButton:hover {
+  background-color: transparent;
+    border: 4px solid #8e44ad;
+    color: #8e44ad;
+}
+
+#WelcomeText {
+  margin: 0;
+  color: #8e44ad;
+}
+
+#CreateText {
+  
+  margin: 0;
+  color: #473150;
+  justify-content: center;
+  text-align: center;
+  padding: 8px 24px;
+
+}
+
+#select {
+  margin: 0;
+  color: #07000a;
+  display: block;
+  margin: 0 auto; 
+}
+
+#MainContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#AppContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+
+.ul-vertical {
+	list-style: none;
+	margin: 0;
+	padding: 8px;
+	background-color: #8e44ad;
+	display: inline-block;
+}
+.ul-vertical li {
+	background-color: #bbb;
+	width: 300px;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #775f81;
+}
+.ul-vertical li+li {
+	margin-top: 8px;
+}
